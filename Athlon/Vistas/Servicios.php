@@ -16,7 +16,7 @@
 							<li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
 							<li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
 							<li class="active"><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
-							<li><a href="#"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
+							<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 						</ul>
 					</nav>
 
@@ -88,19 +88,20 @@
   	<section class="servvalo">
   		<p>Servicios de valor añadido</p>
 
+
   		<article class="convaloranadidos">
   			<article class="anadidos">
   				<article class="ico"><span class="icon-sound-mix"></span></article>
-  				<article class="textoser">Pruebas Eléctricas</p></article> 
+  				<article class="textoser">Pruebas Eléctricas</p></article>
   			</article>
   			<article class="anadidos">
   				<article class="ico"><span class="icon-dial-pad"></span></article>
-  				<article class="textoser">Programación producto</p></article> 
-  				
+  				<article class="textoser">Programación producto</p></article>
+
   			</article>
   			<article class="anadidos">
   				<article class="ico"><span class="icon-flow-tree"></span></article>
-  				<article class="textoser">Re-estañado</p></article> 
+  				<article class="textoser">Re-estañado</p></article>
   			</article>
   		</article>
 
@@ -108,20 +109,20 @@
   		<article class="convaloranadidoss">
   			<article class="anadidos">
   				<article class="ico"><span class="icon-power-plug"></span></article>
-  				<article class="textoser">Capacidad de soldadura</p></article> 
+  				<article class="textoser">Capacidad de soldadura</p></article>
   			</article>
   			<article class="anadidos">
   				<article class="ico"><span class="icon-note"></span></article>
-  				<article class="textoser">Configuración de mezcladoras de sonido</p></article> 
-  				
+  				<article class="textoser">Configuración de mezcladoras de sonido</p></article>
+
   			</article>
   			<article class="anadidos">
   				<article class="ico"><span class="icon-modern-mic"></span></article>
-  				<article class="textoser">Técnicas para colocar micrófonos</p></article> 
-  				
+  				<article class="textoser">Técnicas para colocar micrófonos</p></article>
+
   			</article>
   		</article>
-  		
+
   	</section>
 
   	<section class="empresas">
@@ -132,17 +133,17 @@
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-sports-club"></span></article>
-  				<article class="textoserdos">Automotor</p></article> 
+  				<article class="textoserdos">Automotor</p></article>
   			</article>
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-dial-pad"></span></article>
-  				<article class="textoserdos">Emisión</p></article> 
+  				<article class="textoserdos">Emisión</p></article>
   			</article>
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-shop"></span></article>
-  				<article class="textoserdos">Comercial</p></article> 
+  				<article class="textoserdos">Comercial</p></article>
   			</article>
   		</article>
 
@@ -151,7 +152,7 @@
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-power-plug"></span></article>
-  				<article class="textoserdos">Industrial</p></article> 
+  				<article class="textoserdos">Industrial</p></article>
   			</article>
 
   			<article class="anadidoss">
@@ -161,7 +162,7 @@
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-shield"></span></article>
-  				<article class="textoserdos">Militar</p></article> 			
+  				<article class="textoserdos">Militar</p></article>
   			</article>
 
   		</article>
@@ -170,7 +171,7 @@
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-tools"></span></article>
-  				<article class="textoserdos">Seguridad Nacional</p></article> 
+  				<article class="textoserdos">Seguridad Nacional</p></article>
   			</article>
 
   			<article class="anadidoss">
@@ -180,12 +181,12 @@
 
   			<article class="anadidoss">
   				<article class="icodos"><span class="icon-rss"></span></article>
-  				<article class="textoserdos">Comunicaciones Inalámbricas</p></article> 			
+  				<article class="textoserdos">Comunicaciones Inalámbricas</p></article>
   			</article>
-  			
+
   		</article>
   		<a href="Contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
-  		
+
   	</section>
 
 
