@@ -12,6 +12,7 @@ header {
     /*width: 100%;*/
     width: 78%;
     margin: 0 auto;
+    /*border:2px solid blue;*/
 }
 
 #nav, #logo {
@@ -435,3 +436,110 @@ footer {
     vertical-align: top;
     display: inline-block;
 }
+
+
+
+/*****************Diseño de Servicio**************/
+
+.content-sup, .content-inf
+{
+  /*border: 2px solid rgb(23, 76, 125);*/
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+.fondo-img {
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 750px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-image: url(../img/img-fondo-servicio-part1.jpg);
+    overflow: hidden;
+}
+
+div.contenedor{
+	width: 20%;
+	height: 430px;
+	display:inline-block;
+	transition: height .4s;
+	-webkit-transition: height .4s;
+	-moz-transition: height .4s;
+	-o-transition: height .4s;
+	border: 2px solid red;
+}
+
+
+/**************Colores de cada contenedor****************************/
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+/************************************************************************/
+
+img{
+  border: 2px solid green;
+}
+
+img.icon{
+	/*display: block;*/
+	margin:30px auto;
+	background-color: rgba(255,255,255,.15);
+	width:60px;
+	padding:20px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+	/*border: 2px solid yellow;*/
+}
+
+p{
+  border: 2px solid orange;
+}
+p.texto{
+	font-size: 16px;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+/*div.contenedor:hover{
+	height:300px;
+}*/
+
+div.contenedor:hover p.texto{
+	/*padding-top: 30px;*/
+	opacity: 1;
+}
+
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+/*********************************Termina diseño de servicio**************************************/

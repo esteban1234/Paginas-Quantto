@@ -19,11 +19,11 @@
 						<ul>
 							<li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
 							<li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
-							<li><a href="#"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
+							<li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
 							<li><a href="#"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 						</ul>
 					</nav>
-			
+
 
 			<!-- Logo -->
 					<div id="logo">
@@ -50,9 +50,9 @@
 					<p class="textoencabezadoindex">Consultoría técnica</p>
 				 	<p class="textoindex">Contamos con personal capacitado en todos nuestros artículos En caso de necesitar, reparación o reinstalación de algún equipo electrónico.</p>
 				 	<a class="enlaceicono" href=""><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
-					
+
 				</article>
-					
+
 			</article>
 
 
@@ -62,9 +62,9 @@
 					<p class="textoencabezadoindex">Consultoría en computación</p>
 				 	<p class="textoindex">Solución rápida a la hora de comprar un equipo de cómputo para los padres y niños principiantes qué no saben que equipo está hecho a su medida.</p>
 				 	<a class="enlaceicono" href=""><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
-					
+
 				</article>
-					
+
 			</article>
 
 			<article class="indexser">
@@ -73,9 +73,9 @@
 					<p class="textoencabezadoindex">Comercial: Audio y Video</p>
 				 	<p class="textoindex">Contamos con equipos de sonido y video  para todo tipo de comercio, “oficinas, restaurantes, escuelas, hospitales y centros comerciales.</p>
 				 	<a class="enlaceicono" href=""><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
-					
+
 				</article>
-					
+
 			</article>
 	</section>
 
@@ -120,7 +120,7 @@
 				<p class="text">Memorias</p>
 			</div>
 		</div>
-			
+
 		</article>
 
 
@@ -160,7 +160,7 @@
 				<p class="text">Pianos</p>
 			</div>
 		</div>
-			
+
 </article>
 
 <article class="marcasdos">
@@ -199,19 +199,18 @@
 				<p class="text">Ponchadoras</p>
 			</div>
 		</div>
-			
+
 </article>
 <button class="button" style="vertical-align:middle"><span>Contáctanos</span></button>
 
 
 	</section>
-
-		<?php 
+		<?php
 			include ('Pie.php');
 
 		 ?>
 
 
-	
+
 </body>
 </html>
