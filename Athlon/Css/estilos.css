@@ -432,7 +432,7 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 
-.informacion, .informaciondos {
+.informacioon, .informaciondos {
     /*border: 2px red solid;*/
     /*display: inline-block;*/
     vertical-align: top;
@@ -603,16 +603,27 @@ footer {
 
 /*****************Diseño de Servicio**************/
 
+.servicios {
+    /*border: 2px red solid;*/
+    margin-left: 11%;
+    margin-bottom: 2%;
+    width: 40%;
+    font-size: 55px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
 .content-sup, .content-inf {
     /*border: 2px solid rgb(23, 76, 125);*/
     text-align: center;
     margin-top: 5px;
-    /*border: 2px red solid;*/
+    /*border: 2px black solid;*/
 }
 
 .fondo-img {
+    /*outline: 2px red solid;*/
     width: 100%;
-    height: 750px;
+    height: 450px;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -623,6 +634,7 @@ footer {
 }
 
 div.contenedor {
+    vertical-align: top;
     width: 20%;
     height: 430px;
     display: inline-block;
@@ -671,7 +683,7 @@ img.icon {
     /*display: block;*/
     margin: 30px auto;
     background-color: rgba(255, 255, 255, .15);
-    width: 60px;
+    width: 200px;
     padding: 20px;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
@@ -704,6 +716,38 @@ div.contenedor:hover p.texto {
 
 div.contenedor:hover img.icon {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+.informacion {
+    /*outline: 2px red solid;*/
+    margin-top: 2%;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    /*padding-top: 10px;*/
+    padding: 10px 10px 0px 10px;
+    opacity: .6;
+    -webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover div.informacion {
+    /*padding-top: 30px;*/
+    opacity: 1;
+}
+
+.servvalo {
+    border: 2px red solid;
+}
+
+.servvalo p {
+    border: 2px green solid;
+    /*margin-left: 11%;*/
+    text-align: center;
+    margin-bottom: 2%;
+    width: 100%;
+    font-size: 30px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
 }
 
 

@@ -33,7 +33,7 @@
 
 		<section class="conq">
 		<p class="conocenos">Conocenos</p>
-		<article class="informacion">
+		<article class="informacioon">
 			<p class="textoinformativo">
 				Athlon, es una empresa 100% mexicana y orgullosamente yucateca, dedicada a la venta y consultoría en electrónica. Somos una empresa especialista en consultoría de componentes electrónicos y de utilizar una amplia red de proveedores de componentes de todo el mundo mediante la implementación de una estrategia de suministro competitiva para los artículos no-almacenados que incluyen; artículos difícil de encontrar, obsoletos, fabricante asignado, y la electrónica específica, incluso de aplicaciones, ahorrándole tiempo y dinero. <br><br>
 				A la fecha Athlon se ha mantenido como líder en consultoría técnica y científica ofreciéndole una red amplia de soluciones garantizadas y rápidas, para evitar la pérdida de tiempo y dinero.

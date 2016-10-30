@@ -26,42 +26,44 @@
 						<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
 					</div>
 		</header>
+		<p class="servicios">Servicios</p>
     <section>
+
   		<div class="fondo-img">
         <div class="content-sup">
           <div class="contenedor" id="uno">
-      			<img class="icon" src="pictures/icon1.png">
-      			<p class="texto">home</p>
+      			<img class="icon" src="../Img/tecnica.jpg">
+      			<p class="texto">Consultoría técnica</p>
             <div class="informacion">
-
+				Contamos con personal capacitado en todos nuestros artículos En caso de necesitar, reparación o reinstalación de algún equipo electrónico.
             </div>
       		</div>
 
       		<div class="contenedor" id="dos">
-      			<img class="icon" src="pictures/icon2.png">
-      			<p class="texto">páginas</p>
+      			<img class="icon" src="../Img/servcon.jpg">
+      			<p class="texto">Consultoría en computación</p>
             <div class="informacion">
-
+				Solución rápida a la hora de comprar un equipo de cómputo para los padres y niños principiantes qué no saben que equipo está hecho a su medida.
             </div>
       		</div>
 
       		<div class="contenedor" id="tres">
-      			<img class="icon" src="pictures/icon3.png">
-      			<p class="texto">google +</p>
+      			<img class="icon" src="../Img/video.jpg">
+      			<p class="texto">Comercial: Audio y Video</p>
             <div class="informacion">
-
+				Contamos con equipos de sonido y video  para todo tipo de comercio, “oficinas, restaurantes, escuelas, hospitales y centros comerciales.
             </div>
       		</div>
 
           <div class="contenedor" id="cuatro">
-            <img class="icon" src="pictures/icon4.png">
-            <p class="texto">apple</p>
+            <img class="icon" src="../Img/conta.jpg">
+            <p class="texto">Consultoria de contabilidad</p>
             <div class="informacion">
-
+				Contamos con expertos en contabilidad para darte un mejor presupuesto de los articulos que necesite, de igual manera hacer un presupuesto a coerde a su económia.
             </div>
           </div>
     		</div>  <!--Termina content-sup-->
-        <div class="content-inf">
+  <!--       <div class="content-inf">
         	<div class="contenedor" id="cinco">
       			<img class="icon" src="pictures/icon5.png">
       			<p class="texto">html 5</p>
@@ -77,9 +79,18 @@
 
             </div>
       		</div>
-        </div>  <!-- Termian content-inf-->
+        </div -->  <!-- Termian content-inf-->
   		</div>
   	</section>
+
+  	<section class="servvalo">
+  		<p>Servicios de valor añadido</p>
+  		
+  	</section>
+
+
+
+
     <?php
 			include ('Pie.php');
 		 ?>
