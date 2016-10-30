@@ -623,7 +623,7 @@ footer {
 .fondo-img {
     /*outline: 2px red solid;*/
     width: 100%;
-    height: 450px;
+    height: 500px;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -736,17 +736,118 @@ div.contenedor:hover div.informacion {
 }
 
 .servvalo {
-    border: 2px red solid;
+    /*border: 2px red solid;*/
+    background-color: rgb(190, 208, 1);
+    overflow: hidden;
+    height: 480px;
 }
 
 .servvalo p {
-    border: 2px green solid;
+    /*background-color: rgb(255, 255, 255, .9);*/
+    /*border: 2px green solid;*/
     /*margin-left: 11%;*/
+    margin-top: 2%;
+    overflow: hidden;
     text-align: center;
-    margin-bottom: 2%;
+    color: white;
+    /*margin-bottom: 2%;*/
+    width: 100%;
+    font-size: 40px;
+    /*color: rgb(190, 208, 1);*/
+    font-family: 'Oswald', sans-serif;
+}
+
+.convaloranadidos {
+    /*outline: 2px red solid;*/
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+.convaloranadidoss {
+    /*outline: 2px red solid;*/
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.anadidos {
+    border: 1px white solid;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.ico {
+    /*outline: 2px yellow solid;*/
+    font-size: 40px;
+    color: black;
+    background-color: white;
+}
+
+.textoser {
+    margin-top: 2%;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    /*margin-bottom: 2%;*/
     width: 100%;
     font-size: 30px;
+    /*color: rgb(190, 208, 1);*/
+    font-family: 'Oswald', sans-serif;
+}
+
+.empresas p {
+    /*background-color: rgb(255, 255, 255, .9);*/
+    /*border: 2px green solid;*/
+    /*margin-left: 11%;*/
+    margin-top: 2%;
+    overflow: hidden;
+    text-align: center;
     color: rgb(190, 208, 1);
+    /*margin-bottom: 2%;*/
+    width: 100%;
+    font-size: 40px;
+    /*color: rgb(190, 208, 1);*/
+    font-family: 'Oswald', sans-serif;
+}
+
+.empresas {
+    overflow: hidden;
+    /*outline: 2px red solid;*/
+}
+
+.anadidoss {
+    /*border: 1px white solid;*/
+    background-color: rgb(22, 107, 162);
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.icodos {
+    /*outline: 2px yellow solid;*/
+    font-size: 40px;
+    color: black;
+    /*background-color: white;*/
+    background-color: rgb(22, 145, 190);
+}
+
+.textoserdos {
+    margin-top: 2%;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    /*margin-bottom: 2%;*/
+    width: 100%;
+    font-size: 30px;
+    /*color: rgb(190, 208, 1);*/
     font-family: 'Oswald', sans-serif;
 }
 

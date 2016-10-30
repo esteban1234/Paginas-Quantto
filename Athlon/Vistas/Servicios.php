@@ -26,6 +26,8 @@
 						<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
 					</div>
 		</header>
+
+		<span class="ir-arriba icon-arrow-bold-up"></span>
 		<p class="servicios">Servicios</p>
     <section>
 
@@ -85,6 +87,104 @@
 
   	<section class="servvalo">
   		<p>Servicios de valor añadido</p>
+
+  		<article class="convaloranadidos">
+  			<article class="anadidos">
+  				<article class="ico"><span class="icon-sound-mix"></span></article>
+  				<article class="textoser">Pruebas Eléctricas</p></article> 
+  			</article>
+  			<article class="anadidos">
+  				<article class="ico"><span class="icon-dial-pad"></span></article>
+  				<article class="textoser">Programación producto</p></article> 
+  				
+  			</article>
+  			<article class="anadidos">
+  				<article class="ico"><span class="icon-flow-tree"></span></article>
+  				<article class="textoser">Re-estañado</p></article> 
+  			</article>
+  		</article>
+
+
+  		<article class="convaloranadidoss">
+  			<article class="anadidos">
+  				<article class="ico"><span class="icon-power-plug"></span></article>
+  				<article class="textoser">Capacidad de soldadura</p></article> 
+  			</article>
+  			<article class="anadidos">
+  				<article class="ico"><span class="icon-note"></span></article>
+  				<article class="textoser">Configuración de mezcladoras de sonido</p></article> 
+  				
+  			</article>
+  			<article class="anadidos">
+  				<article class="ico"><span class="icon-modern-mic"></span></article>
+  				<article class="textoser">Técnicas para colocar micrófonos</p></article> 
+  				
+  			</article>
+  		</article>
+  		
+  	</section>
+
+  	<section class="empresas">
+
+  	<p>Mercados a los que servimos</p>
+
+  		<article class="convaloranadidos">
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-sports-club"></span></article>
+  				<article class="textoserdos">Automotor</p></article> 
+  			</article>
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-dial-pad"></span></article>
+  				<article class="textoserdos">Emisión</p></article> 
+  			</article>
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-shop"></span></article>
+  				<article class="textoserdos">Comercial</p></article> 
+  			</article>
+  		</article>
+
+
+  		<article class="convaloranadidoss">
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-power-plug"></span></article>
+  				<article class="textoserdos">Industrial</p></article> 
+  			</article>
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-plus"></span></article>
+  				<article class="textoserdos">Médico</p></article>
+  			</article>
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-shield"></span></article>
+  				<article class="textoserdos">Militar</p></article> 			
+  			</article>
+
+  		</article>
+
+  		<article class="convaloranadidoss">
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-tools"></span></article>
+  				<article class="textoserdos">Seguridad Nacional</p></article> 
+  			</article>
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-note"></span></article>
+  				<article class="textoserdos">Telecomunicaciones</p></article>
+  			</article>
+
+  			<article class="anadidoss">
+  				<article class="icodos"><span class="icon-rss"></span></article>
+  				<article class="textoserdos">Comunicaciones Inalámbricas</p></article> 			
+  			</article>
+  			
+  		</article>
+  		<a href="Contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
   		
   	</section>
 
@@ -94,5 +194,8 @@
     <?php
 			include ('Pie.php');
 		 ?>
+
+		 <script type="text/javascript" src="../Js/iconoarriba.js"></script>
+	<script type="text/javascript" src="../Js/jquery.js"></script>
   </body>
 </html>
