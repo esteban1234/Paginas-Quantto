@@ -457,8 +457,8 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
-    background-image: url(../img/img-fondo-servicio-part1.jpg);
+    /*background-color: #464646;*/
+    /*background-image: url(../img/img-fondo-servicio-part1.jpg);*/
     overflow: hidden;
 }
 
