@@ -114,7 +114,7 @@ header {
     text-align: center;
     margin-top: 0;
     float: right;
-    width: 65%;
+    width: 35%;
 }
 
 
@@ -421,6 +421,7 @@ footer {
     /*border: 2px red solid;*/
     width: 78%;
     margin: 0 auto;
+    height: 400px;
 }
 
 .conocenos {
@@ -432,114 +433,277 @@ footer {
 }
 
 .informacion, .informaciondos {
-    border: 2px red solid;
+    /*border: 2px red solid;*/
+    /*display: inline-block;*/
     vertical-align: top;
-    display: inline-block;
 }
 
+.textoinformativo {
+    /*outline: 2px red solid;*/
+    width: 40%;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+    float: left;
+}
+
+.informaciondos {
+    width: 35%;
+    float: right;
+    margin-right: 12%;
+    /*margin-top: 3%;*/
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    /*background-color: #464646;*/
+    background-image: url(../Img/ATHLON.png);
+    overflow: hidden;
+}
+
+.secciondosq {
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-image: url(../img/dos.jpg);
+    overflow: hidden;
+}
+
+
+/*------------------mision vision objetivo---------*/
+
+.main {
+    /*outline: 2px red solid;*/
+    /*text-align: center;*/
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.view img {
+    display: block;
+    position: relative;
+    width: 300px;
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0 0 0;
+}
+
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    /*font-size: 12px;*/
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+
+.view a.info: hover {
+    box-shadow: 0 0 5px #000;
+}
+
+.nuestrosv {
+    /*border: 2px red solid;*/
+    margin-top: 2%;
+    width: 40%;
+    font-size: 40px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.valoresq {
+    /*outline: 2px red solid;*/
+    /*text-align: center;*/
+    width: 78%;
+    margin: 0 auto;
+    /*margin-top: 5%;*/
+    overflow: hidden;
+}
+
+.convalores {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.valorestex {
+    /*border: 2px red solid;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.valorestex p {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    /*background-color: red;*/
+}
+
+.iconov {
+    font-size: 35px;
+    color: rgb(190, 208, 1);
+}
 
 
 /*****************Diseño de Servicio**************/
 
-.content-sup, .content-inf
-{
-  /*border: 2px solid rgb(23, 76, 125);*/
-  text-align: center;
-  margin-top: 5px;
+.content-sup, .content-inf {
+    /*border: 2px solid rgb(23, 76, 125);*/
+    text-align: center;
+    margin-top: 5px;
+    /*border: 2px red solid;*/
 }
 
-
 .fondo-img {
-    /*border: 2px red solid;*/
     width: 100%;
     height: 750px;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
-    background-image: url(../img/img-fondo-servicio-part1.jpg);
+    /*background-color: #464646;
+    background-image: url(../img/img-fondo-servicio-part1.jpg);*/
     overflow: hidden;
 }
 
-div.contenedor{
-	width: 20%;
-	height: 430px;
-	display:inline-block;
-	transition: height .4s;
-	-webkit-transition: height .4s;
-	-moz-transition: height .4s;
-	-o-transition: height .4s;
-	border: 2px solid red;
+div.contenedor {
+    width: 20%;
+    height: 430px;
+    display: inline-block;
+    transition: height .4s;
+    -webkit-transition: height .4s;
+    -moz-transition: height .4s;
+    -o-transition: height .4s;
+    /*border: 2px solid red;*/
 }
 
 
 /**************Colores de cada contenedor****************************/
-div#uno{
-	background-color: rgb(208,101,3);
+
+div#uno {
+    background-color: rgb(208, 101, 3);
 }
 
-div#dos{
-	background-color: rgb(233,147,26);
+div#dos {
+    background-color: rgb(233, 147, 26);
 }
 
-div#tres{
-	background-color: rgb(22,145,190);
+div#tres {
+    background-color: rgb(22, 145, 190);
 }
 
-div#cuatro{
-	background-color: rgb(22,107,162);
+div#cuatro {
+    background-color: rgb(22, 107, 162);
 }
 
-div#cinco{
-	background-color: rgb(27,54,71);
+div#cinco {
+    background-color: rgb(27, 54, 71);
 }
 
-div#seis{
-	background-color: rgb(21,40,54);
+div#seis {
+    background-color: rgb(21, 40, 54);
 }
+
+
 /************************************************************************/
 
-img{
-  border: 2px solid green;
+img {
+    /*border: 2px solid green;*/
 }
 
-img.icon{
-	/*display: block;*/
-	margin:30px auto;
-	background-color: rgba(255,255,255,.15);
-	width:60px;
-	padding:20px;
-	border-radius: 50%;
-	box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
-	-webkit-transition:box-shadow .4s;
-	/*border: 2px solid yellow;*/
+img.icon {
+    /*display: block;*/
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, .15);
+    width: 60px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    /*border: 2px solid yellow;*/
 }
 
-p{
-  border: 2px solid orange;
+p {
+    /*border: 2px solid orange;*/
 }
-p.texto{
-	font-size: 16px;
-	color:white;
-	text-align: center;
-	padding-top:10px;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
+
+p.texto {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .6;
+    -webkit-transition: padding-top .4s;
 }
+
 
 /*div.contenedor:hover{
 	height:300px;
 }*/
 
-div.contenedor:hover p.texto{
-	/*padding-top: 30px;*/
-	opacity: 1;
+div.contenedor:hover p.texto {
+    /*padding-top: 30px;*/
+    opacity: 1;
 }
 
-
-div.contenedor:hover img.icon{
-	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+div.contenedor:hover img.icon {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
 }
+
 
 /*********************************Termina diseño de servicio**************************************/

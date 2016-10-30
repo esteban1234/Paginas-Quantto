@@ -5,7 +5,6 @@
 	<title> ATHLON | PROFESIONALES EN ELECTRÓNICA</title>
 	<link rel="stylesheet" href="../Css/estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../fonts/style.css">
 
 </head>
@@ -35,7 +34,7 @@
 		<!-- Banner -->
 		<div id="banner">
 			<div class="containeruno">
-				<p class="ee">Electricidad y Electrónica</p>
+				<p class="ee">Electrónica</p>
 			</div>
 		</div>
 
@@ -49,7 +48,7 @@
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Consultoría técnica</p>
 				 	<p class="textoindex">Contamos con personal capacitado en todos nuestros artículos En caso de necesitar, reparación o reinstalación de algún equipo electrónico.</p>
-				 	<a class="enlaceicono" href=""><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
+				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 
 				</article>
 
@@ -61,7 +60,7 @@
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Consultoría en computación</p>
 				 	<p class="textoindex">Solución rápida a la hora de comprar un equipo de cómputo para los padres y niños principiantes qué no saben que equipo está hecho a su medida.</p>
-				 	<a class="enlaceicono" href=""><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
+				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 
 				</article>
 
@@ -72,14 +71,14 @@
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Comercial: Audio y Video</p>
 				 	<p class="textoindex">Contamos con equipos de sonido y video  para todo tipo de comercio, “oficinas, restaurantes, escuelas, hospitales y centros comerciales.</p>
-				 	<a class="enlaceicono" href=""><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
+				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 
 				</article>
 
 			</article>
 	</section>
-
-	<button class="button" style="vertical-align:middle"><span>Servicios</span></button>
+	 <a href="Servicios.php" class="button" style="vertical-align:middle" ><span>Servicios</span></a>
+	<!-- <button class="button" style="vertical-align:middle" ><span>Servicios</span></button> -->
 
 	<!-- seccion dos -->
 	<section class="seccionindexdos">
@@ -201,7 +200,8 @@
 		</div>
 
 </article>
-<button class="button" style="vertical-align:middle"><span>Contáctanos</span></button>
+<!-- <button class="button" style="vertical-align:middle"><span>Contáctanos</span></button> -->
+<a href="Contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
 
 
 	</section>
