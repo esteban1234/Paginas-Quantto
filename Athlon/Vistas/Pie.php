@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../Css/estilos.css">
+</head>
+<body>
+	<footer>
+			<article class="piecondos">
+			<p class="dtcdos">Derechos de autor 2016© <b class="petruspie">| PROFESIONALES EN ELECTRONICA ATHLON</b></p>
+			</article>
+
+	</footer>
+</body>
+</html>
