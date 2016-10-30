@@ -13,7 +13,6 @@ header {
     width: 78%;
     margin: 0 auto;
     border-bottom: 1px solid rgb(190, 208, 1);
-    ;
 }
 
 #nav, #logo {
@@ -724,4 +723,39 @@ div.contenedor:hover img.icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+    #nav, #logo {
+        display: inline-block;
+        vertical-align: top;
+    }
+    header {
+        /*border: 2px red solid;*/
+        width: 78%;
+    }
+    #logo {
+        width: 18%;
+    }
+    #nav {
+        /*outline: 2px red solid;*/
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    .conq {
+        margin-bottom: 4%;
+    }
+    .view {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        float: left;
+        border: 5px solid #fff;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        box-shadow: 1px 1px 2px #e6e6e6;
+        cursor: pointer;
+        margin-left: 2%;
+    }
 }

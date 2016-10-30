@@ -4,10 +4,4 @@
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {}
 
-@media screen and (max-width: 1366px) and (min-width: 1024px) {
-    header {
-        border: 2px red solid;
-    }
-}
-
 @media screen and (min-width: 1367px) {}
