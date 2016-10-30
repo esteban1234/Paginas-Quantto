@@ -16,7 +16,7 @@
 							<li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
 							<li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
 							<li class="active"><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
-							<li><a href="#"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
+							<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 						</ul>
 					</nav>
 
@@ -85,7 +85,7 @@
 
   	<section class="servvalo">
   		<p>Servicios de valor añadido</p>
-  		
+
   	</section>
 
 

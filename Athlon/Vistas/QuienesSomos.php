@@ -17,10 +17,10 @@
 							<li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
 							<li class="active"><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
 							<li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
-							<li><a href="#"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
+							<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 						</ul>
 					</nav>
-			
+
 
 			<!-- Logo -->
 					<div id="logo">
@@ -41,7 +41,7 @@
 			</p>
 		</article>
 		<article class="informaciondos"></article>
-			
+
 		</section>
 
 
@@ -80,7 +80,7 @@
 				<article class="valorestex">
 					<p>
 						<span class="iconov icon-cycle"></span>&nbsp;&nbsp;Responsabilidad
-					</p>	
+					</p>
 				</article>
 				<article class="valorestex">
 					<p>
@@ -99,7 +99,7 @@
 				<article class="valorestex">
 					<p>
 						<span class="iconov icon-briefcase"></span>&nbsp;&nbsp;Ética de trabajo
-					</p>	
+					</p>
 				</article>
 				<article class="valorestex">
 					<p>
@@ -118,7 +118,7 @@
 				<article class="valorestex">
 					<p>
 						<span class="iconov icon-leaf"></span>&nbsp;&nbsp;Honestidad
-					</p>	
+					</p>
 				</article>
 				<article class="valorestex">
 					<p>
@@ -138,13 +138,13 @@
 
 
 
-		<?php 
+		<?php
 			include ('Pie.php');
 
 
 		 ?>
 	<script type="text/javascript" src="../Js/iconoarriba.js"></script>
 	<script type="text/javascript" src="../Js/jquery.js"></script>
-	
+
 </body>
 </html>

@@ -803,3 +803,103 @@ div.contenedor:hover div.informacion {
         margin-left: 2%;
     }
 }
+
+
+
+/**************Inicia Contacto*********************/
+
+.cont-general
+{
+  /*border: 2px solid red;*/
+}
+
+.mapa, .direccion
+{
+  display: inline-block;
+  /*border: 2px solid red;*/
+
+  text-align: center;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.direccion
+{
+  width: 38%;
+  margin-left: 0px;
+}
+
+.mapa
+{
+  margin-right: 0px;
+  width: 55%;
+}
+
+.texto_servicio
+{
+  /*border: 2px solid green;*/
+  width: 80%;
+  margin:0 auto;
+}
+
+
+.texto-direccion .dir-text, .texto-direccion span{
+  text-align: center;
+  display: inline-block;
+  /*border: 2px solid green;*/
+}
+
+.texto-direccion .dir-text{
+  width: 85%;
+  text-align: left;
+  margin: 20px 0px;
+  }
+
+  .dir-text div{
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+
+.texto-direccion span{
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  color: rgb(190, 208, 1);
+  border-radius: 50%;
+  /*border: 2px solid red;*/
+}
+
+.group-input
+{
+  border:2px solid red;
+  text-align: center;
+}
+
+
+.input-group
+{
+  border: 2px solid green;
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+
+
+.input-group input, .input-group .label
+{
+  border: 2px solid green;
+  width: 100%;
+  font-weight: bolder;
+}
+
+
+.input-group input:focus
+{
+  border:3px solid #000;
+  background-color:#F0F8FF;
+  margin-right:10px;
+}
+
+
+
+/*************Termina contacto***********/
