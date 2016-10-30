@@ -30,6 +30,7 @@
 					</div>
 
 		</header>
+		<span class="ir-arriba icon-arrow-bold-up"></span>
 
 		<!-- Banner -->
 		<div id="banner">
@@ -210,7 +211,8 @@
 
 		 ?>
 
-
+	<script type="text/javascript" src="../Js/iconoarriba.js"></script>
+	<script type="text/javascript" src="../Js/jquery.js"></script>
 
 </body>
 </html>

@@ -29,6 +29,8 @@
 
 		</header>
 
+		<span class="ir-arriba icon-arrow-bold-up"></span>
+
 		<section class="conq">
 		<p class="conocenos">Conocenos</p>
 		<article class="informacion">
@@ -141,7 +143,8 @@
 
 
 		 ?>
-
+	<script type="text/javascript" src="../Js/iconoarriba.js"></script>
+	<script type="text/javascript" src="../Js/jquery.js"></script>
 	
 </body>
 </html>

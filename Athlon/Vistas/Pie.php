@@ -11,5 +11,8 @@
 			</article>
 
 	</footer>
+
+	<script type="text/javascript" src="../Js/iconoarriba.js"></script>
+	<script type="text/javascript" src="../Js/jquery.js"></script>
 </body>
 </html>

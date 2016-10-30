@@ -564,6 +564,7 @@ footer {
     font-size: 40px;
     color: rgb(190, 208, 1);
     font-family: 'Oswald', sans-serif;
+    overflow: hidden;
 }
 
 .valoresq {
@@ -707,3 +708,19 @@ div.contenedor:hover img.icon {
 
 
 /*********************************Termina diseño de servicio**************************************/
+
+
+/*------------------ir-arriba-------------*/
+
+.ir-arriba {
+    display: none;
+    padding: 20px;
+    /*background: #024959;*/
+    background: rgb(190, 208, 1);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
