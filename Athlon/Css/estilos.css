@@ -322,10 +322,12 @@ header {
     color: rgb(190, 208, 1);
     width: 78%;
     margin: 0 auto;
+    text-align: center;
     /*border: 2px red solid;*/
 }
 
 .marcasdos {
+    text-align: center;
     background: rgba(0, 0, 0, .4);
     /*color: #000;*/
     color: rgb(190, 208, 1);
@@ -409,4 +411,27 @@ footer {
     /*font-family: 'Roboto Condensed', sans-serif;*/
     font-family: 'Playfair Display', serif;
     color: black;
+}
+
+
+/*-------------------quienes somos-----------------------------*/
+
+.conq {
+    /*border: 2px red solid;*/
+    width: 78%;
+    margin: 0 auto;
+}
+
+.conocenos {
+    /*border: 2px red solid;*/
+    width: 40%;
+    font-size: 55px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.informacion, .informaciondos {
+    border: 2px red solid;
+    vertical-align: top;
+    display: inline-block;
 }
