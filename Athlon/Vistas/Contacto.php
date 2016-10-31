@@ -24,7 +24,9 @@
 						<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
 					</div>
 		</header>
-    <p class="servicios">Contacto</p>
+    <div class="img-fondo">
+      <p class="contacto">Contacto</p>
+    </div>
     <p class="texto_servicio"> Para más información acerca de nuestros servicios, por favor contáctenos usando el siguiente formulario y nosotros nos comunicaremos con usted lo más pronto posible.</p>
     <div class="cont-general">
       <div class="mapa">
