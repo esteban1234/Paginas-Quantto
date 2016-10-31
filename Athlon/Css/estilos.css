@@ -972,36 +972,50 @@ div.contenedor:hover div.informacion {
 
 .group-input
 {
-  border:2px solid red;
+  /*border:2px solid red;*/
   text-align: center;
+  margin: 10px;
 }
 
 
 .input-group
 {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   display: inline-block;
   width: 30%;
   text-align: left;
 }
 
 
-.input-group input, .input-group .label
+input,.label, textarea
 {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   width: 100%;
   font-weight: bolder;
+  display: block;
+  font-size: 18px;
+  color: #545353;
 }
 
 
-.input-group input:focus
+.input-group input, textarea
 {
-  border:3px solid #000;
-  background-color:#F0F8FF;
-  margin-right:10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #31849f;
+  font-size: 16px;
+  color: #31849f;
+  padding: 10px;
 }
 
 
+.group-comentario
+{
+  margin-top:15px;
+  text-align: left;
+  width: 80%;
+  margin: 15px auto;
+}
 .img-fondo
 {
   background-image: url(../Img/linea.png);
@@ -1012,13 +1026,10 @@ div.contenedor:hover div.informacion {
 
 .contacto
 {
-  /*margin-left: 11%;*/
-  /*margin-bottom: 2%;*/
-  /*width: 40%;*/
-  /*text-align: center;*/
   background: #fff;
-  width: 15%;
-  /*border: 2px solid red;*/
+  text-align: center;
+  padding: 10px;
+  width: 21%;
   margin: 0 auto;
   font-size: 55px;
   color: rgb(190, 208, 1);

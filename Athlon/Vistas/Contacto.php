@@ -25,7 +25,7 @@
 					</div>
 		</header>
     <div class="img-fondo">
-      <p class="contacto">Contacto</p>
+      <p class="contacto">Contáctanos</p>
     </div>
     <p class="texto_servicio"> Para más información acerca de nuestros servicios, por favor contáctenos usando el siguiente formulario y nosotros nos comunicaremos con usted lo más pronto posible.</p>
     <div class="cont-general">
@@ -64,6 +64,10 @@
       </div>
     </div>
     <div>
+      <div class="img-fondo">
+        <p class="contacto">Escríbenos</p>
+      </div>
+      <p class="texto_servicio"> Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p>
       <form class="" action="" method="post">
         <div class="group-input">
           <div class="input-group">
@@ -83,6 +87,7 @@
             <input type="text" id="correo" name="correo">
           </div>
           <div class="group-comentario">
+            <label class="label" for="nombre">Correo:</label>
             <textarea name="name" rows="8" cols="40"></textarea>
           </div>
         </div>
