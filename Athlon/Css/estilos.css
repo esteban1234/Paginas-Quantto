@@ -982,7 +982,7 @@ div.contenedor:hover div.informacion {
 {
   /*border: 2px solid green;*/
   display: inline-block;
-  width: 30%;
+  width: 26.5%;
   text-align: left;
 }
 
@@ -995,6 +995,20 @@ input,.label, textarea
   display: block;
   font-size: 18px;
   color: #545353;
+}
+
+.enviar
+{
+  background: #31849f;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 15%;
+  text-align: center;
+  margin-left: 145px;
 }
 
 
@@ -1036,3 +1050,181 @@ input,.label, textarea
   font-family: 'Oswald', sans-serif;
 }
 /*************Termina contacto***********/
+
+
+/**********Estilo Responsivo*******************+*/
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .nav-header{
+    display: none;
+    border: 2px solid red;
+  }
+
+  #logo
+  {
+    /*border:2px solid red;*/
+    width: 80%;
+    margin-left:-35px;
+  }
+
+
+  .containeruno
+  {
+    /*border:2px solid green;*/
+    display: block;
+    padding: 0px;
+
+    /*margin: 0px;*/
+  }
+
+  .ee
+  {
+    /*margin-left: -400px;*/
+    float: left;
+    width: 100%;
+    /*width: 80%;*/
+    /*border: 2px solid yellow;*/
+    font-size: 50px;
+  }
+
+  .introserindex
+  {
+    font-size: 25px;
+  }
+
+  .indexser
+  {
+    /*border: 2px solid red;*/
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    /*margin: 0px;*/
+
+  }
+
+  .button
+  {
+    margin: 10px 70px;
+  }
+
+  .introproindexseccdos{
+    /*border: 2px solid red;*/
+    font-size: 25px;
+  }
+
+  .seccionindexdos
+  {
+    /*border: 2px solid green;*/
+    height: auto;
+  }
+  .container
+  {
+    /*border: 2px solid red;*/
+    /*width: 400px;*/
+    /*display: block;*/
+    /*margin: 0px;*/
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  .nav-header{
+    display: none;
+    border: 2px solid red;
+  }
+
+  #logo
+  {
+    /*border:2px solid red;*/
+    width: 80%;
+    margin-left:-35px;
+  }
+
+  .containeruno
+  {
+    /*border:2px solid green;*/
+    display: block;
+    padding: 0px;
+
+    /*margin: 0px;*/
+  }
+
+  .ee
+  {
+    float: left;
+    width: 100%;
+    font-size: 70px;
+  }
+
+  .indexser
+  {
+    /*border: 2px solid red;*/
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    /*margin: 0px;*/
+
+  }
+
+  .button
+  {
+    margin: 10px 150px;
+  }
+
+  .seccionindexdos
+  {
+    /*border: 2px solid green;*/
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .nav-header{
+    display: none;
+    border: 2px solid red;
+  }
+
+  #logo
+  {
+    /*border:2px solid red;*/
+    width: 80%;
+    margin-left:-35px;
+  }
+
+  .containeruno
+  {
+    /*border:2px solid green;*/
+    display: block;
+    padding: 0px;
+
+    /*margin: 0px;*/
+  }
+
+  .ee
+  {
+    float: left;
+    width: 100%;
+    font-size: 70px;
+  }
+
+  .indexser
+  {
+    /*border: 2px solid red;*/
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    /*margin: 0px;*/
+
+  }
+
+  .button
+  {
+    margin: 10px 200px;
+  }
+
+  .seccionindexdos
+  {
+    /*border: 2px solid green;*/
+    height: auto;
+  }
+}
+
+/**********************/
