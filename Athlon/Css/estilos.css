@@ -1002,5 +1002,26 @@ div.contenedor:hover div.informacion {
 }
 
 
+.img-fondo
+{
+  background-image: url(../Img/linea.png);
+  background-position: 0 50%;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+}
 
+.contacto
+{
+  /*margin-left: 11%;*/
+  /*margin-bottom: 2%;*/
+  /*width: 40%;*/
+  /*text-align: center;*/
+  background: #fff;
+  width: 15%;
+  /*border: 2px solid red;*/
+  margin: 0 auto;
+  font-size: 55px;
+  color: rgb(190, 208, 1);
+  font-family: 'Oswald', sans-serif;
+}
 /*************Termina contacto***********/
