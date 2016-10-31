@@ -12,14 +12,16 @@
 	<!-- Header -->
 		<header>
 				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
-							<li class="active"><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
-							<li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
-							<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
-						</ul>
-					</nav>
+				<div class="nav-header">
+						<nav id="nav">
+							<ul>
+								<li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
+								<li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
+								<li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
+								<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
+							</ul>
+						</nav>
+				</div>
 
 
 			<!-- Logo -->
@@ -47,7 +49,7 @@
 
 		<section class="secciondosq">
 			<div class="main">
-	            <div class="view view-first">
+	            <div class="view">
 	                <img src="img/img01.jpg">
 	                <div class="mask">
 	                    <h2>MISIÓN</h2>
@@ -55,7 +57,7 @@
 	                    <!-- <a href="#" class="info">Read More</a> -->
 	                </div>
 	            </div>
-	            <div class="view view-first">
+	            <div class="view">
 	                <img src="img/img02.jpg">
 	                <div class="mask">
 	                    <h2>VISIÓN</h2>
@@ -63,7 +65,7 @@
 	                    <!-- <a href="#" class="info">Read More</a> -->
 	                </div>
 	            </div>
-	            <div class="view view-first">
+	            <div class="view">
 	                <img src="img/img03.jpg">
 	                <div class="mask">
 	                    <h2>OBJETIVOS</h2>

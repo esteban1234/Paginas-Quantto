@@ -15,19 +15,25 @@ header {
     border-bottom: 1px solid rgb(190, 208, 1);
 }
 
+.nav-header{
+  display: inline-block;
+}
+
 #nav, #logo {
-    display: inline-block;
-    vertical-align: top;
+
+    /*vertical-align: top;*/
+    /*border: 2px solid red*/
 }
 
 #nav {
     /*outline: 2px green solid;*/
+    /*width: 60%*/
 }
 
 #logo {
     /*outline: 2px red solid;*/
-    width: 18%;
-    margin-left: 12%;
+    width: 15%;
+    /*margin-left: 10%;*/
     /*height: 5px;*/
 }
 
@@ -489,7 +495,7 @@ footer {
 }
 
 .view {
-    width: 300px;
+    width: 30%;
     height: 200px;
     margin: 10px;
     float: left;
@@ -499,7 +505,7 @@ footer {
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .view .mask, .view .content {
@@ -628,9 +634,10 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-color: #464646;
-    background-image: url(../img/img-fondo-servicio-part1.jpg);*/
-    overflow: hidden;
+    /*background-color: #464646;*/
+    /*background-image: url(../img/img-fondo-servicio-part1.jpg);*/
+    display: block;
+    /*overflow: hidden;*/
 }
 
 div.contenedor {
@@ -890,7 +897,7 @@ div.contenedor:hover div.informacion {
     .conq {
         margin-bottom: 4%;
     }
-    .view {
+    /*.view {
         width: 300px;
         height: 200px;
         margin: 10px;
@@ -902,7 +909,7 @@ div.contenedor:hover div.informacion {
         box-shadow: 1px 1px 2px #e6e6e6;
         cursor: pointer;
         margin-left: 2%;
-    }
+    }*/
 }
 
 
@@ -1036,6 +1043,7 @@ input,.label, textarea
   background-position: 0 50%;
   background-size: 100% 1px;
   background-repeat: no-repeat;
+  /*display: inline-block;*/
 }
 
 .contacto
@@ -1048,6 +1056,12 @@ input,.label, textarea
   font-size: 55px;
   color: rgb(190, 208, 1);
   font-family: 'Oswald', sans-serif;
+}
+
+.mapa iframe
+{
+  width: 600px;
+  height: 450px;
 }
 /*************Termina contacto***********/
 
@@ -1091,7 +1105,7 @@ input,.label, textarea
     font-size: 25px;
   }
 
-  .indexser
+  .indexser,
   {
     /*border: 2px solid red;*/
     display: block;
@@ -1122,6 +1136,158 @@ input,.label, textarea
     /*width: 400px;*/
     /*display: block;*/
     /*margin: 0px;*/
+  }
+
+  .img-fondo
+  {
+    /*border: 2px solid red;*/
+    background-image:none;
+  }
+
+  .img-fondo .contacto, .conocenos, .nuestrosv
+  {
+    font-size: 30px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .texto_servicio
+  {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .mapa iframe
+  {
+    width: 285px;
+    height: 230px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+  .texto-direccion
+  {
+    display: inline-block;;
+    width: 100%;
+    padding-top: 10px;
+    /*border: 2px solid red;*/
+    /*margin: 0px;*/
+    border-top: .1px solid rgb(26, 95, 203);
+    margin-top: 5px;
+  }
+
+  .texto_servicio
+  {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .input-group
+  {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .group-comentario
+  {
+    width: 100%;
+  }
+
+  .enviar
+  {
+    width: 80%;
+    margin: auto 10%;
+  }
+
+  .textoinformativo
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .informaciondos
+  {
+    /*border: 2px solid green;*/
+    display: none;
+  }
+
+  .view
+  {
+    /*border: 2px solid red;*/
+    /*display: block;*/
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .view .mask
+  {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .view .mask p{
+    text-align: justify;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .convalores
+  {
+    margin: 15px 0px;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+    /*font-size: 20px;*/
+  /*border: 2px solid red;*/
+  }
+
+  .button
+  {
+    display: none;
+  }
+  .fondo-img
+  {
+    height: auto;
+  }
+  div.contenedor
+  {
+    width: 80%;
+    margin: 10px auto;
+    /*border: 2px solid green;*/
+    display: block;
+  }
+
+  div.contenedor .texto
+  {
+    /*border: 2px solid red;*/
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  div.contenedor .informacion
+  {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .anadidos
+  {
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+  }
+
+  .servvalo
+  {
+    height: auto;
   }
 }
 
@@ -1174,6 +1340,124 @@ input,.label, textarea
     /*border: 2px solid green;*/
     height: auto;
   }
+
+  .img-fondo
+  {
+    /*border: 2px solid red;*/
+    background-image:none;
+  }
+
+  .img-fondo .contacto, .nuestrosv
+  {
+    font-size: 30px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    /*border: 2px solid red;*/
+  }
+
+  .texto_servicio
+  {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .mapa iframe
+  {
+    width: 450px;
+    height: 230px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+  .texto-direccion
+  {
+    display: inline-block;;
+    width: 100%;
+    padding-top: 10px;
+    /*border: 2px solid red;*/
+    /*margin: 0px;*/
+    border-top: .1px solid rgb(26, 95, 203);
+    margin-top: 5px;
+  }
+
+  .texto_servicio
+  {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .input-group
+  {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .group-comentario
+  {
+    width: 100%;
+  }
+
+  .enviar
+  {
+    width: 80%;
+    margin: auto 10%;
+  }
+
+
+  .textoinformativo
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .informaciondos
+  {
+    /*border: 2px solid green;*/
+    display: none;
+  }
+
+  .view
+  {
+    /*border: 2px solid red;*/
+    /*display: block;*/
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .view .mask
+  {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .view .mask p{
+    text-align: justify;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .convalores
+  {
+    margin: 15px 0px;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+    /*font-size: 20px;*/
+  /*border: 2px solid red;*/
+  }
+
+  .button
+  {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
@@ -1185,8 +1469,9 @@ input,.label, textarea
   #logo
   {
     /*border:2px solid red;*/
-    width: 80%;
-    margin-left:-35px;
+    width: 60%;
+    /*margin: auto 0;*/
+    /*margin-left:-35px;*/
   }
 
   .containeruno
@@ -1224,6 +1509,123 @@ input,.label, textarea
   {
     /*border: 2px solid green;*/
     height: auto;
+  }
+
+  .img-fondo
+  {
+    /*border: 2px solid red;*/
+    background-image:none;
+  }
+
+  .img-fondo .contacto, .nuestrosv
+  {
+    font-size: 30px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    /*border: 2px solid red;*/
+  }
+
+  .texto_servicio
+  {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .mapa iframe
+  {
+    width: 575px;
+    height: 230px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+  .texto-direccion
+  {
+    display: inline-block;;
+    width: 100%;
+    padding-top: 10px;
+    /*border: 2px solid red;*/
+    /*margin: 0px;*/
+    border-top: .1px solid rgb(26, 95, 203);
+    margin-top: 5px;
+  }
+
+  .texto_servicio
+  {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .input-group
+  {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .group-comentario
+  {
+    width: 100%;
+  }
+
+  .enviar
+  {
+    width: 50%;
+    margin: auto 23%;
+  }
+
+  .textoinformativo
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .informaciondos
+  {
+    /*border: 2px solid green;*/
+    display: none;
+  }
+
+  .view
+  {
+    /*border: 2px solid red;*/
+    /*display: block;*/
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .view .mask
+  {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .view .mask p{
+    text-align: justify;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .convalores
+  {
+    margin: 15px 0px;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+    /*font-size: 20px;*/
+  /*border: 2px solid red;*/
+  }
+
+  .button
+  {
+    display: none;
   }
 }
 
