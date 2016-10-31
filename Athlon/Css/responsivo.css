@@ -1,11 +1,32 @@
+
 @media screen and (max-width: 480px) {}
 
 @media screen and (max-width: 599px) and (min-width: 481px) {}
+
+/*@media screen and (max-width: 480px) and (min-width: 320px) {
+  .nav-header{
+    display: none;
+    border: 2px solid red;
+  }
+
+  #logo
+  {
+    border:2px solid red;
+    width: 1%;
+    display: block;
+    margin: 0px;
+  }
+}*/
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+
+}
 
 @media screen and (max-width: 799px) and (min-width: 600px) {}
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {}
 
+<<<<<<< HEAD
 
 /*-----------------mac--------------*/
 
@@ -14,3 +35,6 @@
 @media screen and (max-width: 1366px) and (min-width: 1024px) {}
 
 @media screen and (min-width: 1367px) {}
+=======
+@media screen and (min-width: 1367px) {}
+>>>>>>> santy

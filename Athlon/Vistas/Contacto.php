@@ -68,7 +68,7 @@
         <p class="contacto">Escríbenos</p>
       </div>
       <p class="texto_servicio"> Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p>
-      <form class="" action="" method="post">
+      <form id="form" action="" method="post">
         <div class="group-input">
           <div class="input-group">
             <span id="msj"></span>
@@ -87,17 +87,23 @@
             <input type="text" id="correo" name="correo">
           </div>
           <div class="group-comentario">
+            <span id="msj"></span>
             <label class="label" for="nombre">Correo:</label>
             <textarea name="name" rows="8" cols="40"></textarea>
           </div>
         </div>
+        <input type="button" class="enviar" name="name" value="Enviar">
       </form>
-    </div>
+    </div><br><br>
 		<span class="ir-arriba icon-arrow-bold-up"></span>
 
-    <?phpinclude ('Pie.php');   ?>
+    <?php include ('Pie.php');   ?>
 
     <script type="text/javascript" src="../Js/iconoarriba.js"></script>
-  	<script type="text/javascript" src="../Js/jquery.js"></script>
+    <script type="text/javascript" src="../Js/jquery.js"></script>
+  	<!-- <script type="text/javascript" src="../Js/formulario.js"></script> -->
+
+    <!-- <script src="../Js/jqueryvalidate/dist/jquery.validate.min.js"></script> -->
+  	<!-- <script src="../Js/jqueryvalidate/src/localization/messages_es .js"></script> -->
   </body>
 </html>
