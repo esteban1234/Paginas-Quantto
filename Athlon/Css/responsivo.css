@@ -1,0 +1,676 @@
+
+@media screen and (max-width: 480px) {
+  #logo, .menu
+  {
+    display: inline-block;
+  }
+
+  #logo{
+    width: 75%;
+    margin: 0px;
+  }
+
+  .menu{
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+    vertical-align: middle;
+    line-height: 148px;
+    color: rgb(30, 198, 46);
+  }
+
+  #banner
+  {
+    height: 200px;
+  }
+
+  .ee
+  {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .introserindex
+  {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 20px;
+  }
+
+  .indexser
+  {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .indexser  .textoencabezadoindex
+  {
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .indexser .textoindex
+  {
+    font-size: 16px;
+  }
+
+  .conttextoencabezadoindex-y-textoindex
+  {
+    background-color: rgb(13, 139, 116);
+    color: #fff;
+  }
+
+  .button
+  {
+    margin: 15px 65px;
+    background-color: rgb(21, 167, 199);
+  }
+
+  .introproindexseccdos
+  {
+    font-size: 28px;
+    color: rgb(70, 224, 85);
+    font-weight: bold;
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+    padding: 0px;
+  }
+
+  .container
+  {
+    margin-left: 0px;
+  }
+
+  header
+  {
+    width: 100%;
+  }
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    /*border: 2px solid red;*/
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+  /***********DISEÑO MENU DESPLEGABLE*********************/
+  .informaciondos
+  {
+    display: none;
+  }
+
+  .conq
+  {
+    width: 100%;
+  }
+  .informacioon
+  {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .textoinformativo
+  {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .conocenos, .nuestrosv, .servicios
+  {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .nuestrosv
+  {
+    margin: 15px;
+  }
+  .secciondosq, .fondo-img , .servvalo
+  {
+    height: auto;
+  }
+
+  .main
+  {
+    width: 100%;
+  }
+  .view
+  {
+    width: 95%;
+  }
+
+  .convalores, .valorestex
+  {
+    width: 100%;
+  }
+
+  .content-sup, .servvalo
+  {
+    /*height: auto;*/
+  }
+
+  div.contenedor
+  {
+    width: 100%;
+    margin:15px 0px;
+  }
+
+  .anadidos, .anadidoss
+  {
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  .img-fondo
+  {
+    width: 100%;
+  }
+  .contacto
+  {
+    /*border: 2px solid red;*/
+    width: 55%;
+    font-size: 30px;
+  }
+  .texto_servicio
+  {
+    text-align: justify;
+    margin-bottom: 80px;
+  }
+
+  .mapa iframe
+  {
+    width: 285px;
+    height: 250px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+
+  .texto-direccion
+  {
+    width: 100%;
+    border: .1px solid rgba(14, 189, 152, 0.75);
+    padding-top: 15px;
+    margin: 0px;
+  }
+
+  .input-group, .group-comentario
+  {
+    width: 100%;
+  }
+
+  .enviar
+  {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+
+  #logo, .menu
+  {
+    display: inline-block;
+  }
+
+  #logo{
+    width: 75%;
+    margin: 0px;
+  }
+
+  .menu{
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+    vertical-align: middle;
+    line-height: 148px;
+    color: rgb(30, 198, 46);
+
+  }
+
+  #banner
+  {
+    height: 300px;
+  }
+
+  .ee
+  {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .introserindex
+  {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 20px;
+  }
+
+  .indexser
+  {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .indexser  .textoencabezadoindex
+  {
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .indexser .textoindex
+  {
+    font-size: 16px;
+  }
+
+  .conttextoencabezadoindex-y-textoindex
+  {
+    background-color: rgb(242, 131, 50);
+    color: #fff;
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+    padding: 0px;
+  }
+
+  .button
+  {
+    margin: 15px 155px;
+    background-color: rgb(21, 167, 199);
+  }
+
+  header
+  {
+    width: 100%;
+  }
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    /*border: 2px solid red;*/
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  #logo, .menu
+  {
+    display: inline-block;
+  }
+
+  #logo{
+    width: 75%;
+    margin: 0px;
+  }
+
+  .menu{
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+    vertical-align: middle;
+    line-height: 148px;
+    color: rgb(30, 198, 46);
+
+  }
+
+  #banner
+  {
+    height: 300px;
+  }
+
+  .ee
+  {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .introserindex
+  {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 20px;
+  }
+
+  .indexser
+  {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .indexser  .textoencabezadoindex
+  {
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .indexser .textoindex
+  {
+    font-size: 16px;
+  }
+
+  .conttextoencabezadoindex-y-textoindex
+  {
+    background-color: rgb(242, 131, 50);
+    color: #fff;
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+    padding: 0px;
+  }
+
+  .button
+  {
+    margin: 15px 185px;
+    background-color: rgb(21, 167, 199);
+  }
+
+  header
+  {
+    width: 100%;
+  }
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    /*border: 2px solid red;*/
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  #logo, .menu
+  {
+    display: inline-block;
+  }
+
+  #logo{
+    width: 75%;
+    margin: 0px;
+  }
+
+  .menu{
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+    vertical-align: middle;
+    line-height: 148px;
+    color: rgb(30, 198, 46);
+
+  }
+
+  #banner
+  {
+    height: 300px;
+  }
+
+  .ee
+  {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .introserindex
+  {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 20px;
+  }
+
+  .indexser
+  {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .indexser  .textoencabezadoindex
+  {
+    font-size: 18px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .indexser .textoindex
+  {
+    font-size: 16px;
+  }
+
+  .conttextoencabezadoindex-y-textoindex
+  {
+    background-color: rgb(242, 131, 50);
+    color: #fff;
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+    padding: 0px;
+  }
+
+  .button
+  {
+    margin: 15px 280px;
+    background-color: rgb(21, 167, 199);
+  }
+
+  header
+  {
+    width: 100%;
+  }
+  .nav-header
+  {
+    width:100%;
+    height:auto;
+    top:-300px;
+    position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    /*border: 2px solid red;*/
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+}
+
+@media screen and (max-width: 1367) and (min-width: 1024px) {
+  header
+  {
+    width: 100%;
+  }
+  .nav-header
+  {
+    width:100%;
+    height:auto;
+    top:-300px;
+    position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    /*border: 2px solid red;*/
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+}
