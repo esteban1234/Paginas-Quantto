@@ -15,12 +15,12 @@ header {
     border-bottom: 1px solid rgb(190, 208, 1);
 }
 
-.nav-header{
-  display: inline-block;
+.nav-header {
+    display: inline-block;
 }
 
-#nav, #logo {
-
+#nav,
+#logo {
     /*vertical-align: top;*/
     /*border: 2px solid red*/
 }
@@ -62,7 +62,8 @@ header {
     /*list-style: none;*/
 }
 
-#nav > ul > li > a, #nav > ul > li > span {
+#nav > ul > li > a,
+#nav > ul > li > span {
     display: block;
     margin-left: 0.7em;
     padding: 0.80em 1.2em;
@@ -438,7 +439,8 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 
-.informacioon, .informaciondos {
+.informacioon,
+.informaciondos {
     /*border: 2px red solid;*/
     /*display: inline-block;*/
     vertical-align: top;
@@ -508,7 +510,8 @@ footer {
     margin-left: 2%;
 }
 
-.view .mask, .view .content {
+.view .mask,
+.view .content {
     width: 300px;
     height: 200px;
     position: absolute;
@@ -619,7 +622,8 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 
-.content-sup, .content-inf {
+.content-sup,
+.content-inf {
     /*border: 2px solid rgb(23, 76, 125);*/
     text-align: center;
     margin-top: 5px;
@@ -713,7 +717,7 @@ p.texto {
 
 
 /*div.contenedor:hover{
-	height:300px;
+    height:300px;
 }*/
 
 div.contenedor:hover p.texto {
@@ -878,7 +882,8 @@ div.contenedor:hover div.informacion {
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1024px) {
-    #nav, #logo {
+    #nav,
+    #logo {
         display: inline-block;
         vertical-align: top;
     }
@@ -913,720 +918,554 @@ div.contenedor:hover div.informacion {
 }
 
 
-
 /**************Inicia Contacto*********************/
 
-.cont-general
-{
-  /*border: 2px solid red;*/
+.cont-general {
+    /*border: 2px solid red;*/
 }
 
-.mapa, .direccion
-{
-  display: inline-block;
-  /*border: 2px solid red;*/
-
-  text-align: center;
-  margin: 15px;
-  vertical-align: top;
+.mapa,
+.direccion {
+    display: inline-block;
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin: 15px;
+    vertical-align: top;
 }
 
-.direccion
-{
-  width: 38%;
-  margin-left: 0px;
+.direccion {
+    width: 38%;
+    margin-left: 0px;
 }
 
-.mapa
-{
-  margin-right: 0px;
-  width: 55%;
+.mapa {
+    margin-right: 0px;
+    width: 55%;
 }
 
-.texto_servicio
-{
-  /*border: 2px solid green;*/
-  width: 80%;
-  margin:0 auto;
+.texto_servicio {
+    /*border: 2px solid green;*/
+    width: 80%;
+    margin: 0 auto;
 }
 
-
-.texto-direccion .dir-text, .texto-direccion span{
-  text-align: center;
-  display: inline-block;
-  /*border: 2px solid green;*/
+.texto-direccion .dir-text,
+.texto-direccion span {
+    text-align: center;
+    display: inline-block;
+    /*border: 2px solid green;*/
 }
 
-.texto-direccion .dir-text{
-  width: 85%;
-  text-align: left;
-  margin: 20px 0px;
-  }
+.texto-direccion .dir-text {
+    width: 85%;
+    text-align: left;
+    margin: 20px 0px;
+}
 
-  .dir-text div{
+.dir-text div {
     margin: 10px 0px;
     font-weight: bold;
-  }
-
-.texto-direccion span{
-  width: 50px;
-  height: 50px;
-  font-size: 40px;
-  color: rgb(190, 208, 1);
-  border-radius: 50%;
-  /*border: 2px solid red;*/
 }
 
-.group-input
-{
-  /*border:2px solid red;*/
-  text-align: center;
-  margin: 10px;
+.texto-direccion span {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(190, 208, 1);
+    border-radius: 50%;
+    /*border: 2px solid red;*/
+}
+
+.group-input {
+    /*border:2px solid red;*/
+    text-align: center;
+    margin: 10px;
+}
+
+.input-group {
+    /*border: 2px solid green;*/
+    display: inline-block;
+    width: 26.5%;
+    text-align: left;
+}
+
+input,
+.label,
+textarea {
+    /*border: 2px solid green;*/
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    font-size: 18px;
+    color: #545353;
+}
+
+.enviar {
+    background: #31849f;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 15%;
+    text-align: center;
+    margin-left: 145px;
+}
+
+.input-group input,
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #31849f;
+    font-size: 16px;
+    color: #31849f;
+    padding: 10px;
+}
+
+.group-comentario {
+    margin-top: 15px;
+    text-align: left;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.img-fondo {
+    background-image: url(../Img/linea.png);
+    background-position: 0 50%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    /*display: inline-block;*/
+}
+
+.contacto {
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 21%;
+    margin: 0 auto;
+    font-size: 55px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.mapa iframe {
+    width: 600px;
+    height: 450px;
 }
 
 
-.input-group
-{
-  /*border: 2px solid green;*/
-  display: inline-block;
-  width: 26.5%;
-  text-align: left;
-}
-
-
-input,.label, textarea
-{
-  /*border: 2px solid green;*/
-  width: 100%;
-  font-weight: bolder;
-  display: block;
-  font-size: 18px;
-  color: #545353;
-}
-
-.enviar
-{
-  background: #31849f;
-  font-weight: bold;
-  font-size: 18px;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  width: 15%;
-  text-align: center;
-  margin-left: 145px;
-}
-
-
-.input-group input, textarea
-{
-  width: 100%;
-  border-radius: 8px;
-  border: 1px solid #31849f;
-  font-size: 16px;
-  color: #31849f;
-  padding: 10px;
-}
-
-
-.group-comentario
-{
-  margin-top:15px;
-  text-align: left;
-  width: 80%;
-  margin: 15px auto;
-}
-.img-fondo
-{
-  background-image: url(../Img/linea.png);
-  background-position: 0 50%;
-  background-size: 100% 1px;
-  background-repeat: no-repeat;
-  /*display: inline-block;*/
-}
-
-.contacto
-{
-  background: #fff;
-  text-align: center;
-  padding: 10px;
-  width: 21%;
-  margin: 0 auto;
-  font-size: 55px;
-  color: rgb(190, 208, 1);
-  font-family: 'Oswald', sans-serif;
-}
-
-.mapa iframe
-{
-  width: 600px;
-  height: 450px;
-}
 /*************Termina contacto***********/
 
 
 /**********Estilo Responsivo*******************+*/
+
 @media screen and (max-width: 480px) and (min-width: 320px) {
-  .nav-header{
-    display: none;
-    border: 2px solid red;
-  }
-
-  #logo
-  {
-    /*border:2px solid red;*/
-    width: 80%;
-    margin-left:-35px;
-  }
-
-
-  .containeruno
-  {
-    /*border:2px solid green;*/
-    display: block;
-    padding: 0px;
-
-    /*margin: 0px;*/
-  }
-
-  .ee
-  {
-    /*margin-left: -400px;*/
-    float: left;
-    width: 100%;
-    /*width: 80%;*/
-    /*border: 2px solid yellow;*/
-    font-size: 50px;
-  }
-
-  .introserindex
-  {
-    font-size: 25px;
-  }
-
-  .indexser,
-  {
-    /*border: 2px solid red;*/
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    /*margin: 0px;*/
-
-  }
-
-  .button
-  {
-    margin: 10px 70px;
-  }
-
-  .introproindexseccdos{
-    /*border: 2px solid red;*/
-    font-size: 25px;
-  }
-
-  .seccionindexdos
-  {
-    /*border: 2px solid green;*/
-    height: auto;
-  }
-  .container
-  {
-    /*border: 2px solid red;*/
-    /*width: 400px;*/
-    /*display: block;*/
-    /*margin: 0px;*/
-  }
-
-  .img-fondo
-  {
-    /*border: 2px solid red;*/
-    background-image:none;
-  }
-
-  .img-fondo .contacto, .conocenos, .nuestrosv
-  {
-    font-size: 30px;
-    margin: 0px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .texto_servicio
-  {
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  .mapa iframe
-  {
-    width: 285px;
-    height: 230px;
-  }
-  .direccion
-  {
-    width: 100%;
-  }
-  .texto-direccion
-  {
-    display: inline-block;;
-    width: 100%;
-    padding-top: 10px;
-    /*border: 2px solid red;*/
-    /*margin: 0px;*/
-    border-top: .1px solid rgb(26, 95, 203);
-    margin-top: 5px;
-  }
-
-  .texto_servicio
-  {
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  .input-group
-  {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .group-comentario
-  {
-    width: 100%;
-  }
-
-  .enviar
-  {
-    width: 80%;
-    margin: auto 10%;
-  }
-
-  .textoinformativo
-  {
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  .informaciondos
-  {
-    /*border: 2px solid green;*/
-    display: none;
-  }
-
-  .view
-  {
-    /*border: 2px solid red;*/
-    /*display: block;*/
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  .view .mask
-  {
-    margin: 0px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .view .mask p{
-    text-align: justify;
-  }
-
-  .secciondosq
-  {
-    height: auto;
-  }
-
-  .convalores
-  {
-    margin: 15px 0px;
-  }
-
-  .valorestex
-  {
-    width: 100%;
-    /*font-size: 20px;*/
-  /*border: 2px solid red;*/
-  }
-
-  .button
-  {
-    display: none;
-  }
-  .fondo-img
-  {
-    height: auto;
-  }
-  div.contenedor
-  {
-    width: 80%;
-    margin: 10px auto;
-    /*border: 2px solid green;*/
-    display: block;
-  }
-
-  div.contenedor .texto
-  {
-    /*border: 2px solid red;*/
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  div.contenedor .informacion
-  {
-    font-size: 15px;
-    text-align: justify;
-  }
-
-  .anadidos
-  {
-    width: 100%;
-    display: block;
-    margin-top: 15px;
-  }
-
-  .servvalo
-  {
-    height: auto;
-  }
+    .nav-header {
+        display: none;
+        border: 2px solid red;
+    }
+    #logo {
+        /*border:2px solid red;*/
+        width: 80%;
+        margin-left: -35px;
+    }
+    .containeruno {
+        /*border:2px solid green;*/
+        display: block;
+        padding: 0px;
+        /*margin: 0px;*/
+    }
+    .ee {
+        /*margin-left: -400px;*/
+        float: left;
+        width: 100%;
+        /*width: 80%;*/
+        /*border: 2px solid yellow;*/
+        font-size: 50px;
+    }
+    .introserindex {
+        font-size: 25px;
+    }
+    .indexser,
+    {
+        /*border: 2px solid red;*/
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        /*margin: 0px;*/
+    }
+    .button {
+        margin: 10px 70px;
+    }
+    .introproindexseccdos {
+        /*border: 2px solid red;*/
+        font-size: 25px;
+    }
+    .seccionindexdos {
+        /*border: 2px solid green;*/
+        height: auto;
+    }
+    .container {
+        /*border: 2px solid red;*/
+        /*width: 400px;*/
+        /*display: block;*/
+        /*margin: 0px;*/
+    }
+    .img-fondo {
+        /*border: 2px solid red;*/
+        background-image: none;
+    }
+    .img-fondo .contacto,
+    .conocenos,
+    .nuestrosv {
+        font-size: 30px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .texto_servicio {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .mapa iframe {
+        width: 285px;
+        height: 230px;
+    }
+    .direccion {
+        width: 100%;
+    }
+    .texto-direccion {
+        display: inline-block;
+        ;
+        width: 100%;
+        padding-top: 10px;
+        /*border: 2px solid red;*/
+        /*margin: 0px;*/
+        border-top: .1px solid rgb(26, 95, 203);
+        margin-top: 5px;
+    }
+    .texto_servicio {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .input-group {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .group-comentario {
+        width: 100%;
+    }
+    .enviar {
+        width: 80%;
+        margin: auto 10%;
+    }
+    .textoinformativo {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .informaciondos {
+        /*border: 2px solid green;*/
+        display: none;
+    }
+    .view {
+        /*border: 2px solid red;*/
+        /*display: block;*/
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .view .mask {
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .view .mask p {
+        text-align: justify;
+    }
+    .secciondosq {
+        height: auto;
+    }
+    .convalores {
+        margin: 15px 0px;
+    }
+    .valorestex {
+        width: 100%;
+        /*font-size: 20px;*/
+        /*border: 2px solid red;*/
+    }
+    .button {
+        display: none;
+    }
+    .fondo-img {
+        height: auto;
+    }
+    div.contenedor {
+        width: 80%;
+        margin: 10px auto;
+        /*border: 2px solid green;*/
+        display: block;
+    }
+    div.contenedor .texto {
+        /*border: 2px solid red;*/
+        font-weight: bold;
+        font-size: 20px;
+    }
+    div.contenedor .informacion {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .anadidos {
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+    }
+    .servvalo {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
-  .nav-header{
-    display: none;
-    border: 2px solid red;
-  }
-
-  #logo
-  {
-    /*border:2px solid red;*/
-    width: 80%;
-    margin-left:-35px;
-  }
-
-  .containeruno
-  {
-    /*border:2px solid green;*/
-    display: block;
-    padding: 0px;
-
-    /*margin: 0px;*/
-  }
-
-  .ee
-  {
-    float: left;
-    width: 100%;
-    font-size: 70px;
-  }
-
-  .indexser
-  {
-    /*border: 2px solid red;*/
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    /*margin: 0px;*/
-
-  }
-
-  .button
-  {
-    margin: 10px 150px;
-  }
-
-  .seccionindexdos
-  {
-    /*border: 2px solid green;*/
-    height: auto;
-  }
-
-  .img-fondo
-  {
-    /*border: 2px solid red;*/
-    background-image:none;
-  }
-
-  .img-fondo .contacto, .nuestrosv
-  {
-    font-size: 30px;
-    margin: 0px;
-    width: 100%;
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
-
-  .texto_servicio
-  {
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  .mapa iframe
-  {
-    width: 450px;
-    height: 230px;
-  }
-  .direccion
-  {
-    width: 100%;
-  }
-  .texto-direccion
-  {
-    display: inline-block;;
-    width: 100%;
-    padding-top: 10px;
-    /*border: 2px solid red;*/
-    /*margin: 0px;*/
-    border-top: .1px solid rgb(26, 95, 203);
-    margin-top: 5px;
-  }
-
-  .texto_servicio
-  {
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  .input-group
-  {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .group-comentario
-  {
-    width: 100%;
-  }
-
-  .enviar
-  {
-    width: 80%;
-    margin: auto 10%;
-  }
-
-
-  .textoinformativo
-  {
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  .informaciondos
-  {
-    /*border: 2px solid green;*/
-    display: none;
-  }
-
-  .view
-  {
-    /*border: 2px solid red;*/
-    /*display: block;*/
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  .view .mask
-  {
-    margin: 0px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .view .mask p{
-    text-align: justify;
-  }
-
-  .secciondosq
-  {
-    height: auto;
-  }
-
-  .convalores
-  {
-    margin: 15px 0px;
-  }
-
-  .valorestex
-  {
-    width: 100%;
-    /*font-size: 20px;*/
-  /*border: 2px solid red;*/
-  }
-
-  .button
-  {
-    display: none;
-  }
+    .nav-header {
+        display: none;
+        border: 2px solid red;
+    }
+    #logo {
+        /*border:2px solid red;*/
+        width: 80%;
+        margin-left: -35px;
+    }
+    .containeruno {
+        /*border:2px solid green;*/
+        display: block;
+        padding: 0px;
+        /*margin: 0px;*/
+    }
+    .ee {
+        float: left;
+        width: 100%;
+        font-size: 70px;
+    }
+    .indexser {
+        /*border: 2px solid red;*/
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        /*margin: 0px;*/
+    }
+    .button {
+        margin: 10px 150px;
+    }
+    .seccionindexdos {
+        /*border: 2px solid green;*/
+        height: auto;
+    }
+    .img-fondo {
+        /*border: 2px solid red;*/
+        background-image: none;
+    }
+    .img-fondo .contacto,
+    .nuestrosv {
+        font-size: 30px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+        /*border: 2px solid red;*/
+    }
+    .texto_servicio {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .mapa iframe {
+        width: 450px;
+        height: 230px;
+    }
+    .direccion {
+        width: 100%;
+    }
+    .texto-direccion {
+        display: inline-block;
+        ;
+        width: 100%;
+        padding-top: 10px;
+        /*border: 2px solid red;*/
+        /*margin: 0px;*/
+        border-top: .1px solid rgb(26, 95, 203);
+        margin-top: 5px;
+    }
+    .texto_servicio {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .input-group {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .group-comentario {
+        width: 100%;
+    }
+    .enviar {
+        width: 80%;
+        margin: auto 10%;
+    }
+    .textoinformativo {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .informaciondos {
+        /*border: 2px solid green;*/
+        display: none;
+    }
+    .view {
+        /*border: 2px solid red;*/
+        /*display: block;*/
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .view .mask {
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .view .mask p {
+        text-align: justify;
+    }
+    .secciondosq {
+        height: auto;
+    }
+    .convalores {
+        margin: 15px 0px;
+    }
+    .valorestex {
+        width: 100%;
+        /*font-size: 20px;*/
+        /*border: 2px solid red;*/
+    }
+    .button {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
-  .nav-header{
-    display: none;
-    border: 2px solid red;
-  }
-
-  #logo
-  {
-    /*border:2px solid red;*/
-    width: 60%;
-    /*margin: auto 0;*/
-    /*margin-left:-35px;*/
-  }
-
-  .containeruno
-  {
-    /*border:2px solid green;*/
-    display: block;
-    padding: 0px;
-
-    /*margin: 0px;*/
-  }
-
-  .ee
-  {
-    float: left;
-    width: 100%;
-    font-size: 70px;
-  }
-
-  .indexser
-  {
-    /*border: 2px solid red;*/
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    /*margin: 0px;*/
-
-  }
-
-  .button
-  {
-    margin: 10px 200px;
-  }
-
-  .seccionindexdos
-  {
-    /*border: 2px solid green;*/
-    height: auto;
-  }
-
-  .img-fondo
-  {
-    /*border: 2px solid red;*/
-    background-image:none;
-  }
-
-  .img-fondo .contacto, .nuestrosv
-  {
-    font-size: 30px;
-    margin: 0px;
-    width: 100%;
-    text-align: center;
-    /*border: 2px solid red;*/
-  }
-
-  .texto_servicio
-  {
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  .mapa iframe
-  {
-    width: 575px;
-    height: 230px;
-  }
-  .direccion
-  {
-    width: 100%;
-  }
-  .texto-direccion
-  {
-    display: inline-block;;
-    width: 100%;
-    padding-top: 10px;
-    /*border: 2px solid red;*/
-    /*margin: 0px;*/
-    border-top: .1px solid rgb(26, 95, 203);
-    margin-top: 5px;
-  }
-
-  .texto_servicio
-  {
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  .input-group
-  {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .group-comentario
-  {
-    width: 100%;
-  }
-
-  .enviar
-  {
-    width: 50%;
-    margin: auto 23%;
-  }
-
-  .textoinformativo
-  {
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  .informaciondos
-  {
-    /*border: 2px solid green;*/
-    display: none;
-  }
-
-  .view
-  {
-    /*border: 2px solid red;*/
-    /*display: block;*/
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  .view .mask
-  {
-    margin: 0px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .view .mask p{
-    text-align: justify;
-  }
-
-  .secciondosq
-  {
-    height: auto;
-  }
-
-  .convalores
-  {
-    margin: 15px 0px;
-  }
-
-  .valorestex
-  {
-    width: 100%;
-    /*font-size: 20px;*/
-  /*border: 2px solid red;*/
-  }
-
-  .button
-  {
-    display: none;
-  }
+    .nav-header {
+        display: none;
+        border: 2px solid red;
+    }
+    #logo {
+        /*border:2px solid red;*/
+        width: 60%;
+        /*margin: auto 0;*/
+        /*margin-left:-35px;*/
+    }
+    .containeruno {
+        /*border:2px solid green;*/
+        display: block;
+        padding: 0px;
+        /*margin: 0px;*/
+    }
+    .ee {
+        float: left;
+        width: 100%;
+        font-size: 70px;
+    }
+    .indexser {
+        /*border: 2px solid red;*/
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        /*margin: 0px;*/
+    }
+    .button {
+        margin: 10px 200px;
+    }
+    .seccionindexdos {
+        /*border: 2px solid green;*/
+        height: auto;
+    }
+    .img-fondo {
+        /*border: 2px solid red;*/
+        background-image: none;
+    }
+    .img-fondo .contacto,
+    .nuestrosv {
+        font-size: 30px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+        /*border: 2px solid red;*/
+    }
+    .texto_servicio {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .mapa iframe {
+        width: 575px;
+        height: 230px;
+    }
+    .direccion {
+        width: 100%;
+    }
+    .texto-direccion {
+        display: inline-block;
+        ;
+        width: 100%;
+        padding-top: 10px;
+        /*border: 2px solid red;*/
+        /*margin: 0px;*/
+        border-top: .1px solid rgb(26, 95, 203);
+        margin-top: 5px;
+    }
+    .texto_servicio {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .input-group {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .group-comentario {
+        width: 100%;
+    }
+    .enviar {
+        width: 50%;
+        margin: auto 23%;
+    }
+    .textoinformativo {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .informaciondos {
+        /*border: 2px solid green;*/
+        display: none;
+    }
+    .view {
+        /*border: 2px solid red;*/
+        /*display: block;*/
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .view .mask {
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .view .mask p {
+        text-align: justify;
+    }
+    .secciondosq {
+        height: auto;
+    }
+    .convalores {
+        margin: 15px 0px;
+    }
+    .valorestex {
+        width: 100%;
+        /*font-size: 20px;*/
+        /*border: 2px solid red;*/
+    }
+    .button {
+        display: none;
+    }
 }
+
 
 /**********************/
