@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Quienes Somos</title>
-	<link rel="stylesheet" href="../Css/estilos.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
-	<link rel="stylesheet" href="../fonts/style.css">
-</head>
-<body>
-
+<?php include ('head.php');	 ?>
 	<!-- Header -->
 		<header>
 				<!-- Nav -->
 				<div class="nav-header">
 						<nav id="nav">
 							<ul>
-								<li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
-								<li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
+								<li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
+								<li class="active"><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
 								<li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
 								<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 							</ul>
@@ -25,10 +15,10 @@
 
 
 			<!-- Logo -->
-					<div id="logo">
-						<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
-					</div>
-
+				<div id="logo">
+					<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
+				</div>
+				<div id="header__icon" class="menu"><span class="icon-menu"></span></div>
 		</header>
 
 		<span class="ir-arriba icon-arrow-bold-up"></span>
@@ -39,11 +29,9 @@
 			<p class="textoinformativo">
 				Athlon, es una empresa 100% mexicana y orgullosamente yucateca, dedicada a la venta y consultoría en electrónica. Somos una empresa especialista en consultoría de componentes electrónicos y de utilizar una amplia red de proveedores de componentes de todo el mundo mediante la implementación de una estrategia de suministro competitiva para los artículos no-almacenados que incluyen; artículos difícil de encontrar, obsoletos, fabricante asignado, y la electrónica específica, incluso de aplicaciones, ahorrándole tiempo y dinero. <br><br>
 				A la fecha Athlon se ha mantenido como líder en consultoría técnica y científica ofreciéndole una red amplia de soluciones garantizadas y rápidas, para evitar la pérdida de tiempo y dinero.
-
 			</p>
 		</article>
 		<article class="informaciondos"></article>
-
 		</section>
 
 
@@ -137,16 +125,11 @@
 		</section>
 		<a href="Contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
 
+		<?php include ('Pie.php'); ?>
 
-
-
-		<?php
-			include ('Pie.php');
-
-
-		 ?>
-	<script type="text/javascript" src="../Js/iconoarriba.js"></script>
-	<script type="text/javascript" src="../Js/jquery.js"></script>
+		<script type="text/javascript" src="../Js/jquery.js"></script>
+		<script src="../Js/menu.js"></script>
+		<script type="text/javascript" src="../Js/iconoarriba.js"></script>
 
 </body>
 </html>

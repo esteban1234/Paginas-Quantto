@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title> ATHLON | PROFESIONALES EN ELECTRÓNICA</title>
-    <!-- <link rel="stylesheet" href="../Css/estilos.css"> -->
-    <link rel="stylesheet" href="../Css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="../fonts/style.css">
-  </head>
-  <body>
+<?php include ('head.php');	 ?>
     <header>
 				<!-- Nav -->
         <div class="nav-header">
             <nav id="nav">
               <ul>
-                <li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
+                <li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
                 <li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
-                <li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
+                <li class="active"><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
                 <li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
               </ul>
             </nav>
         </div>
 
-
 			<!-- Logo -->
-					<div id="logo">
-						<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
-					</div>
+				<div id="logo">
+					<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
+				</div>
+
+        <div id="header__icon" class="menu"><span class="icon-menu"></span></div>
 		</header>
 
 		<span class="ir-arriba icon-arrow-bold-up"></span>
@@ -191,14 +182,10 @@
 
   	</section>
 
+    <?php	include ('Pie.php'); ?>
 
-
-
-    <?php
-			include ('Pie.php');
-		 ?>
-
-		 <script type="text/javascript" src="../Js/iconoarriba.js"></script>
-	<script type="text/javascript" src="../Js/jquery.js"></script>
+    <script type="text/javascript" src="../Js/jquery.js"></script>
+		<script src="../Js/menu.js"></script>
+		<script type="text/javascript" src="../Js/iconoarriba.js"></script>
   </body>
 </html>
