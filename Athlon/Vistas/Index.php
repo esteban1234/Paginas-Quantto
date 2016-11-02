@@ -1,4 +1,4 @@
-<?php include ('head.php');	 ?>
+<?php include 'head.php';?>
 <!-- Header -->
 		<header>
 				<div class="nav-header">
@@ -20,21 +20,24 @@
 
 		<!-- Banner -->
 		<div id="banner">
-			<div class="containeruno">
-				<p class="ee">Electrónica</p>
+			<div class="bannerdos">
+				<p class="bannertres">En <b class="banner4">ATHLON</b> <b class="banner5">Automatizamos</b> tus procesos <br>a través de software.</p>
 			</div>
+
+			<p class="contenboton"><a href="Contacto.php" class="buttonbanner" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
+			<!-- <input type="button" class="enviarba" name="name" value="Contáctanos"> -->
 		</div>
 
 
 	<!-- seccion uno -->
-	<p class="introserindex">Algunos de nuestros servicios</p>
+	<p class="introserindex">Caracteristicas de nuestros servicios</p>
 	<section class="seccionindexuno">
 
 			<article class="indexser">
 				<div class="imgindex1"></div>
 				<article class="conttextoencabezadoindex-y-textoindex">
-					<p class="textoencabezadoindex">Consultoría técnica</p>
-				 	<p class="textoindex">Contamos con personal capacitado en todos nuestros artículos En caso de necesitar, reparación o reinstalación de algún equipo electrónico.</p>
+					<p class="textoencabezadoindex">Software a la medida</p>
+				 	<p class="textoindex">Contamos con amplio dominio en el desarrollo de soluciones de procesos y de control, así como de aplicaciones y servicios, aumentando la productividad y accesibilidad de tu industria, empresa o negocio.</p>
 				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
@@ -43,8 +46,8 @@
 			<article class="indexser">
 				<div class="imgindex2"></div>
 				<article class="conttextoencabezadoindex-y-textoindex">
-					<p class="textoencabezadoindex">Consultoría en computación</p>
-				 	<p class="textoindex">Solución rápida a la hora de comprar un equipo de cómputo para los padres y niños principiantes qué no saben que equipo está hecho a su medida.</p>
+					<p class="textoencabezadoindex">Diseño adaptable</p>
+				 	<p class="textoindex">Leva tu sistema web a donde vallas. Ya que siempre se vera perfecta ya sea desde una PC  de escritorio, tablet o teléfono móvil.</p>
 				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
@@ -52,143 +55,105 @@
 			<article class="indexser">
 				<div class="imgindex3"></div>
 				<article class="conttextoencabezadoindex-y-textoindex">
-					<p class="textoencabezadoindex">Comercial: Audio y Video</p>
-				 	<p class="textoindex">Contamos con equipos de sonido y video  para todo tipo de comercio, “oficinas, restaurantes, escuelas, hospitales y centros comerciales.</p>
+					<p class="textoencabezadoindex">Sistemas actualizables</p>
+				 	<p class="textoindex">Desarrollamos sistemas de gran alcance, actualizables y facil de manejar. Nos adaptamos a cualuqier objetivo de su empresa.</p>
 				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
 	</section>
 
-	 <a href="Servicios.php" class="button" style="vertical-align:middle" ><span>Servicios</span></a>
+		<p class="contenbotondos"><a href="Servicios.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Servicios</span></a></p>
 
-	<section class="seccionindexdos">
-		<p class="introproindexseccdos">Algunos de nuestros equipos</p>
-		<article class="marcas">
-
-		<div class="container">
-			<img src="../img/lap.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">LAP-TOP'S</p>
-			</div>
-		</div>
-
-		<div class="container">
-			<img src="../img/pc.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">PC'S</p>
-			</div>
-		</div>
-
-		<div class="container">
-			<img src="../img/carga2.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Cargadores</p>
-			</div>
-		</div>
-
-		<div class="container">
-			<img src="../img/discos.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Discos Duros</p>
-			</div>
-		</div>
-
-		<div class="container">
-			<img src="../img/ram.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Memorias</p>
-			</div>
-		</div>
-
-		</article>
+	 <!-- <a href="Servicios.php" class="button" style="vertical-align:middle" ><span>Servicios</span></a> -->
+	 <article class="divisor">
+	 	<p class="sistema">Sistema <b class="sistema2">ERP</b></p>
+	 	<p class="subsistema">Somos especialistas en desarrollo de software <b class="sistema2">ERP</b> para cualquier empresa. </p>
+	 </article>
 
 
-<article class="marcasdos">
+	 <section class="seccionindexdos">
+	 <p class="integrado">Software ERP Todo Integrado</p>
+	 	<article class="contineerp">
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Inventarios</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-clipboard"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/baterias.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Baterias</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Proveedores</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-users"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/saxo.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Saxophone</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Tesoreria</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-credit"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/Guitarra.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Guitarras</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Contabilidad</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-calculator"></span></p>
+	 	 </article>
+	 	</article>
 
-		<div class="container">
-			<img src="../img/micro.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Microfonos</p>
-			</div>
-		</div>
+	 	<article class="contineerp">
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Presupuestos</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-ticket"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/piano.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Pianos</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Activos Fijos</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-calendar"></span></p>
+	 	 </article>
 
-</article>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Manufactura</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-hour-glass"></span></p>
+	 	 </article>
 
-<article class="marcasdos">
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Punto de Venta</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-vinyl"></span></p>
+	 	 </article>
+	 	</article>
 
-		<div class="container">
-			<img src="../img/red.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Cable de Red</p>
-			</div>
-		</div>
+	 	<article class="contineerp">
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Pedidos</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-publish"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/tran.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Transistores</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Ventas</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-briefcase"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/capa.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Capacitores</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Grencial</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-user"></span></p>
+	 	 </article>
 
-		<div class="container">
-			<img src="../img/ardu.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Arduinos</p>
-			</div>
-		</div>
+	 	 <article class="subcontineerp">
+	 		<p class="dentrosubcontieneerp">Recursos H.</p>
+	 		<p class="dentrosubcontieneerp"><span class="icon-slideshare"></span></p>
+	 	 </article>
+	 	</article>
 
-		<div class="container">
-			<img src="../img/pon.png"  width="200px" height="150px" alt="">
-			<div class="textbox">
-				<p class="text">Ponchadoras</p>
-			</div>
-		</div>
+	 	<p class="contenbotontres"><a href="Servicios.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
 
-</article>
-<!-- <button class="button" style="vertical-align:middle"><span>Contáctanos</span></button> -->
-	<a href="Contacto.php" class="button" style="vertical-align:middle" ><span>Contáctanos</span></a>
-</section>
+	 </section>
+
+
+
+
+
 <span class="ir-arriba icon-arrow-bold-up"></span>
-	<?php include ('Pie.php');	 ?>
 
-	<script type="text/javascript" src="../Js/jquery.js"></script>
-	<script src="../Js/menu.js"></script>
-	<script type="text/javascript" src="../Js/iconoarriba.js"></script>
+	<?php include 'Pie.php';?>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script src="../js/menu.js"></script>
+	<script type="text/javascript" src="../js/iconoarriba.js"></script>
 
 
 </body>
