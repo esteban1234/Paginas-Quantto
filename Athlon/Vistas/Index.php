@@ -129,7 +129,7 @@
 	 	 </article>
 
 	 	 <article class="subcontineerp">
-	 		<p class="dentrosubcontieneerp">Grencial</p>
+	 		<p class="dentrosubcontieneerp">Gerencial</p>
 	 		<p class="dentrosubcontieneerp"><span class="icon-user"></span></p>
 	 	 </article>
 
