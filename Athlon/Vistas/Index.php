@@ -13,7 +13,7 @@
 				</div>
 			<!-- Logo -->
 				<div id="logo">
-					<img class="athlon" src="../Img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
+					<img class="athlon" src="../img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
 				</div>
 				<div id="header__icon" class="menu"><span class="icon-menu"></span></div>
 		</header>
