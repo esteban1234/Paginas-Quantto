@@ -29,7 +29,7 @@
 		<p class="conocenos">Conocenos</p>
 		<article class="informacioon">
 			<p class="textoinformativo">
-				<b>Athlon</b>, es una empresa 100% mexicana y orgullosamente yucateca, dedicada a la venta y consultoría de software. Somos una empresa especializada en desarrollo de soluciones integrales a problemas que requieren un software específico, contamos con un equipo de profesionales que desarrolla soluciones integrales con métodos que ayudan a nuestros clientes a confiar en las nuevas tecnologías y, al mismo tiempo, encontrar nuevos mercados para sus productos o servicios. <br><br>
+				<b>Athlon</b>, es una empresa 100% mexicana y orgullosamente yucateca, dedicada a la venta y consultoría de software. Somos una empresa especializada en desarrollo de soluciones integrales a problemas que requieren un software específico, contamos con un equipo de profesionales que ayudan a nuestros clientes a confiar en las nuevas tecnologías y, al mismo tiempo, encontrar nuevos mercados para sus productos o servicios. <br><br>
 				Ofrecemos consultoría y soluciones tecnológicas innovadoras y eficaces que sean adaptables a las necesidades de nuestros clientes, fomentando su desarrollo y crecimiento, mediante un equipo de profesionales en tecnologías de la información altamente capacitados.
 				Nuestra experiencia nos ayuda a ofrecer soluciones que superan los objetivos y expectativas de nuestros clientes gracias a las estrategias y métodos que empleamos en cada proyecto.
 				 Somos una empresa especialista en consultoría de sistemas <b>ERP</b>. <br><br>
@@ -45,14 +45,14 @@
 	            <div class="view">
 	                <div class="mask">
 	                    <h2>MISIÓN</h2>
-	                    <p>Ofrecer un servicio de consultoría con la mayor actualización para nuestros usuarios poder desenvolverse satisfactoriamente en el área.</p>
+	                    <p>Desarrollar software administrativos, diseños web y demás servicios de calidad para proporcionar soluciones que ayuden a la evolución de su empresa.</p>
 	                    <!-- <a href="#" class="info">Read More</a> -->
 	                </div>
 	            </div>
 	            <div class="view">
 	                <div class="mask">
 	                    <h2>VISIÓN</h2>
-	                    <p>Ser una empresa líder en consultoría desarrollando estrategias de negocios que apoyen en todo momento su crecimiento.</p>
+	                    <p>Ser una empresa líder en consultoría y venta de software desarrollando estrategias de negocios que apoyen en todo momento su crecimiento.</p>
 	                    <!-- <a href="#" class="info">Read More</a> -->
 	                </div>
 	            </div>

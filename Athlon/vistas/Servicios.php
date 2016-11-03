@@ -31,9 +31,9 @@
         <div class="content-sup">
           <div class="contenedor" id="uno">
             <img class="icon" src="../img/img_factura-electronica.jpg">
-            <p class="texto">Facturación</p>
+            <p class="texto">Almacén</p>
             <div class="informacion">
-        Facturador completo de fácil uso: Clientes, Inventarios, Listas de Precios, Cotizaciones, Pedidos, Comisiones, Agendas, Sucursales.
+        Clientes, Inventarios, Listas de Precios, Cotizaciones, Pedidos, Comisiones, Agendas, Sucursales.
             </div>
           </div>
 

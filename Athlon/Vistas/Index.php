@@ -47,7 +47,7 @@
 				<div class="imgindex2"></div>
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Diseño adaptable</p>
-				 	<p class="textoindex">Leva tu sistema web a donde vallas. Ya que siempre se vera perfecta ya sea desde una PC  de escritorio, tablet o teléfono móvil.</p>
+				 	<p class="textoindex">Lleva tu sistema web a donde vayas. Ya que siempre se vera perfecta ya sea desde una PC  de escritorio, tablet o teléfono móvil.</p>
 				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
@@ -56,7 +56,7 @@
 				<div class="imgindex3"></div>
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Sistemas actualizables</p>
-				 	<p class="textoindex">Desarrollamos sistemas de gran alcance, actualizables y facil de manejar. Nos adaptamos a cualuqier objetivo de su empresa.</p>
+				 	<p class="textoindex">Desarrollamos sistemas de gran alcance, actualizables y facil de manejar. Nos adaptamos a cualquier objetivo de su empresa.</p>
 				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
