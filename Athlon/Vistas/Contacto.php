@@ -38,21 +38,21 @@
           <span class="icon-phone"></span>
           <div class="dir-text">
             <div>TELEFONO</div>
-            <p>Calle 57B Num. 839 entre calle 100 Y 104, COL. Las Americas </p>
+            <p>9999308020 </p>
           </div>
         </div>
         <div class="texto-direccion">
           <span class="icon-clock"></span>
           <div class="dir-text">
             <div>HORARIO</div>
-            <p>Calle 57B Num. 839 entre calle 100 Y 104, COL. Las Americas </p>
+            <p>Lunes a Viernes de 9am a 6pm </p>
           </div>
         </div>
         <div class="texto-direccion">
           <span class="icon-mail"></span>
           <div class="dir-text">
             <div>CORREO</div>
-            <p>Calle 57B Num. 839 entre calle 100 Y 104, COL. Las Americas </p>
+            <p>contacto@gmail.com</p>
           </div>
         </div>
       </div>
