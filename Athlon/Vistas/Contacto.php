@@ -52,7 +52,7 @@
           <span class="icon-mail"></span>
           <div class="dir-text">
             <div>CORREO</div>
-            <p>contacto@gmail.com</p>
+            <p>informacion@athlon.mx</p>
           </div>
         </div>
       </div>
