@@ -30,7 +30,7 @@
       <div class="fondo-img">
         <div class="content-sup">
           <div class="contenedor" id="uno">
-            <img class="icon" src="../img/img_factura-electronica.jpg">
+            <article class="icon"></article>
             <p class="texto">Almacén</p>
             <div class="informacion">
         Clientes, Inventarios, Listas de Precios, Cotizaciones, Pedidos, Comisiones, Agendas, Sucursales.
@@ -38,7 +38,8 @@
           </div>
 
           <div class="contenedor" id="dos">
-            <img class="icon" src="../img/administracion.jpg">
+            <!-- <img class="icon" src="../img/administracion.jpg"> -->
+            <article class="icondos"></article>
             <p class="texto">Administración</p>
             <div class="informacion">
         Facturación, Compras, Bancos, Almacén, Contratos, Producción. Su implementación es fácil y rápido.
@@ -46,7 +47,8 @@
           </div>
 
           <div class="contenedor" id="tres">
-            <img class="icon" src="../img/contabilidad.png">
+            <!-- <img class="icon" src="../img/contabilidad.png"> -->
+            <article class="icontres"></article>
             <p class="texto">Contablidad SAT</p>
             <div class="informacion">
         Generación de pólizas automáticas de clientes y proveedores. Pólizas manuales. Estados financieros. Informes de contabilidad electrónica para el SAT.
@@ -58,7 +60,8 @@
         <div class="fondo-img">
         <div class="content-sup">
           <div class="contenedor" id="cuatro">
-            <img class="icon" src="../img/nomina-electronica.jpg">
+            <!-- <img class="icon" src="../img/nomina-electronica.jpg"> -->
+            <article class="iconcuatro"></article>
             <p class="texto">Nómina</p>
             <div class="informacion">
         Copia desde Excel, pega y timbra desde tu sistema o captura y calcula desde tu sistema. Aguinaldo y PTU sencillo y rápido.
@@ -66,7 +69,8 @@
           </div>
 
           <div class="contenedor" id="cinco">
-            <img class="icon" src="../img/crm.jpg">
+            <!-- <img class="icon" src="../img/crm.jpg"> -->
+            <article class="iconcinco"></article>
             <p class="texto">CRM</p>
             <div class="informacion">
         Capta clientes desde tu página web y usa tickets de soporte. Controla citas y agendalas. Factura con leyes mexicanas.
@@ -74,7 +78,8 @@
           </div>
 
           <div class="contenedor" id="seis">
-            <img class="icon" src="../img/erp1.png">
+            <!-- <img class="icon" src="../img/erp1.png"> -->
+            <article class="iconseis"></article>
             <p class="texto">ERP</p>
             <div class="informacion">
         Administración integral: CRM, Facturación, Nómina, Administración, Contabilidad, Inventarios, Proveedores, Tesoreria, Presupuestos, Ventas y mucho más...

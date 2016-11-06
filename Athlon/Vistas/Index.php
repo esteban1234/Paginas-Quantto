@@ -139,7 +139,7 @@
 	 	 </article>
 	 	</article>
 
-	 	<p class="contenbotontres"><a href="Servicios.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
+	 	<p class="contenbotontres"><a href="Contacto.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
 
 	 </section>
 
